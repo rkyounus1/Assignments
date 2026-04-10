@@ -1,0 +1,114 @@
+ASSIGNMENT 1
+
+1) Manual Testing Roadmap (Basic Flow)
+
+Learn Software Basics
+Understand SDLC
+Learn STLC
+Learn Types of Testing
+Practice Writing Test Cases
+Learn Bug Reporting
+Practice on real websites/apps
+
+2) Important Questions in Manual Testing
+What is Manual Testing?
+→ Testing software manually without automation tools.
+What is SDLC?
+→ Software Development Life Cycle (how software is built).
+What is STLC?
+→ Software Testing Life Cycle (how testing is done).
+
+Difference between Severity & Priority
+What is Test Case?
+What is Bug Life Cycle?
+
+3)Types of Testing
+1. Functional Testing (checks features)
+
+Unit Testing
+Integration Testing
+System Testing
+Smoke Testing
+Sanity Testing
+Regression Testing
+
+2. Non-Functional Testing (checks performance/quality)
+
+Performance Testing
+Load Testing
+Stress Testing
+Security Testing
+Usability Testing
+
+Important Testing Types (Simple)
+Unit Testing
+→ Done by developers, tests small parts of code.
+Smoke Testing
+→ Basic test to check if build is stable.
+Sanity Testing
+→ Check specific functionality after small changes.
+Regression Testing
+→ Check if old features still work after changes.
+SDLC (Software Development Life Cycle)
+
+ Done by Developers / Programmers
+
+Steps:
+
+Requirement Gathering
+Design
+Development (Coding)
+Testing
+Deployment
+Maintenance
+STLC (Software Testing Life Cycle)
+
+  Done by QA / Testers
+
+Steps:
+
+Requirement Analysis
+Test Planning
+Test Case Writing
+Test Execution
+Bug Reporting
+Test Closure
+
+ Includes:
+
+Smoke Testing
+Sanity Testing
+Regression Testing
+
+Bug / Defect Life Cycle
+New
+Assigned
+Open
+Fixed
+Retest
+Verified
+Closed
+
+
+(If not fixed → Reopened)
+
+Severity vs Priority
+Severity → How serious the bug is
+(Example: App crash = High severity)
+Priority → How fast it should be fixed
+(Example: Login issue = High priority)
+
+
+Severity = Impact
+Priority = Urgency
+
+4) Day-to-Day Activity of Tester
+Understand requirements
+Write test cases
+Execute test cases
+Find bugs
+Report bugs
+Retest fixed bugs
+Attend meetings (daily standup)
+Do regression testing
+
