@@ -1,0 +1,87 @@
+ASSIGNMENT
+1.	Testing and Types of Testing
+Process of evaluating software to make sure it works correctly, meets requirements and it is bug free
+Manual testing – Performed by humans without automation tool, good for small projects.
+Automation testing – Uses tools or scripts to execute test, ideal for large scale testing
+FUNCTIONAL TESTING
+Verifies features are working correctly, Matches business requirements.
+•	Login button works 
+•	User can place an order 
+•	Payment is successful
+Examples:
+•	Unit Testing 
+•	Integration Testing 
+•	System Testing 
+•	User Acceptance Testing (UAT) 
+•	Smoke Testing 
+•	Sanity Testing 
+•	Regression Testing 
+NON-FUNCTIONAL TESTING
+Focuses on performance, speed, security, usability
+•	Website loads fast 
+•	App works with many users at once 
+•	Data is secure
+Examples:
+•	Performance Testing (Load, Stress) 
+•	Security Testing 
+•	Usability Testing 
+•	Compatibility Testing 
+•	Reliability Testing 
+•	Scalability Testing
+
+2. Smoke, Regression, Sanity, Unit testing.
+•	Unit testing – Small part of code is tested 
+•	Smoke testing – Test to verify main functionalities of an application is working fine, ensure build is stable before detailed testing
+•	Regression testing – Ensures overall application is still stable after any change.
+•	Sanity testing – It is done after minor changes or bug fix to verify that the fix works and nothing around it is broken
+
+3. SDLC - part of developer or programmer
+It is the process to build a software from start to end
+•	Requirement
+→ What to build 
+•	Design
+→ How it will look/work 
+•	Development
+→ Coding the application 
+•	Testing
+→ Checking for bugs 
+•	Deployment
+→ Releasing to users 
+•	Maintenance
+→ Fixing issues & updates 
+
+4. STLC - part of developer or programmer
+It is the process testers follow to test a software
+•	Understand Requirements
+→ What needs to be tested 
+•	Plan Testing
+→ How to test, tools, timeline 
+•	Write Test Cases
+→ Steps to test features 
+•	Execute Tests
+→ Run the test cases 
+•	Report Bugs
+→ Log defects if something fails 
+•	Close Testing
+→ Testing completed
+
+5. Bug/Defect life cycle
+•	New → Bug is created and logged 
+•	Assigned → Bug is given to a developer 
+•	Open → Developer starts working on it 
+•	Fixed → Developer fixes the bug 
+•	Retest → Tester checks the fix 
+•	Verified → Bug is confirmed as fixed 
+•	Closed → Bug is closed successfully
+•	Reopened → Bug still exists after fix 
+•	Rejected → Not a valid bug 
+•	Deferred → Fix is postponed to later
+
+6. Severity and Priority
+Severity and Priority are used to decide how important a bug is.
+Severity means how serious the bug is (impact on system), Decided by QA/Testers
+•	App crash → High Severity 
+•	Small UI issue → Low Severity 
+Priority means how quickly the bug should be fixed (urgency), Decided by Product Manager / Team
+•	Login issue → High Priority 
+•	Minor typo → Low Priority
