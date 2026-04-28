@@ -19,8 +19,8 @@ Var: Sir, var is the old keyword used to declare variables in JavaScript. It is 
 
 Example :
 function showMessage (){
-let a = 10;  
-let a = 15;
+var a = 10;  
+var a = 15;
 console.log(a);
 }
 showMessage ();
@@ -39,7 +39,7 @@ const: const is the modern way to declare variables in JavaScript. It is block-s
 
 Example :
 function showMessage (){
-let a = 10;  
+const a = 10;  
 a = 15;
 console.log(a);
 }
