@@ -1,0 +1,57 @@
+                    Assignment of hoisting,var,Let,const,Argument and Parameter
+Parameter
+A parameter is a variable listed in a function definition.
+It acts like a placeholder to receive a value.
+
+Argument
+An argument is the actual value you pass to the function when calling it
+
+Example :
+function showMessage (b){
+let a = 10;  
+console.log(a-b);
+return 1;
+}
+let c = showMessage (5);
+console.log(c)
+
+Var: Sir, var is the old keyword used to declare variables in JavaScript. It is function-scoped, so it can be accessed anywhere inside that function. If we use it before declaration, it gives undefined.
+
+Example :
+function showMessage (){
+let a = 10;  
+let a = 15;
+console.log(a);
+}
+showMessage ();
+
+Let:* let is the modern way to declare variables in JavaScript. It is block-scoped, so it works only inside the {} where it is declared. You can change its value later, but if you use it before declaration, it gives an error.
+
+Example :
+function showMessage (){
+let a = 10;  
+a = 15;
+console.log(a);
+}
+showMessage ();
+
+const: const is the modern way to declare variables in JavaScript. It is block-scoped, so it works only inside the {} where it is declared. non-reassignable, must be initialized immediately, but if you use it before declaration, it gives an error.
+
+Example :
+function showMessage (){
+let a = 10;  
+a = 15;
+console.log(a);
+}
+showMessage ();
+In this it will show error In const we cannot change its value later it need to initialized immediately
+
+Hoisting: Hoisting means JavaScript moves variable and function declarations to the top before executing the code. In var, it is initialized as unde fined. But in let and const, if we access before declaration, it gives an error
+
+Example :
+function showMessage (){
+console.log(a);
+let a = 10;  
+a = 15;
+}
+showMessage ();
