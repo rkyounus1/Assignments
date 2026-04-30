@@ -1,0 +1,75 @@
+                               JavaScript Assignment
+
+
+Parameter : A parameter is a variable listed in a function definition. It acts like a placeholder to receive a value.
+
+2. Argument An argument is the actual value you pass to the function when calling it. 
+
+  Example:  
+  function add(a, b) {   // a and b are parameters
+    return a + b;
+}
+
+console.log(add(5, 3));  // 5 and 3 are arguments
+
+
+
+Var: Sir, var is the old keyword used to declare variables in JavaScript. It is function-scoped, so it can be accessed anywhere inside that function. If we use it before declaration, it gives undefined.
+
+Example:  
+ function demo() {
+    console.log(x);  // undefined (not error)
+    var x = 10;
+    console.log(x);  // 10
+}
+
+demo();
+
+Let: let is the modern way to declare variables in JavaScript. It is block-scoped, so it works only inside the {} where it is declared. You can change its value later, but if you use it before declaration, it gives an error.
+
+Example :
+  function showMessage (){
+    if (true) {
+        let a = 10;
+        console.log(a); //  works
+    }
+
+    console.log(a); //  Error
+}
+
+showMessage();
+
+const: const is the modern way to declare variables in JavaScript. It is block-scoped, so it works only inside the {} where it is declared. non-reassign able, must be initialized immediately, but if you use it before declaration, it gives an error.
+
+Example : a 
+  Example 1: Must initialize immediately
+ const a = 10;   //  correct
+ const b;        //  Error (must assign value)  
+
+Example : b Cannot reassign
+  const x = 5;
+x = 10;   //  Error
+console.log(x); // 5
+
+ Example : c Block Scope 
+  function test() {
+    if (true) {
+        const num = 100;
+        console.log(num); // works
+    }
+
+    console.log(num); //  Error
+}
+
+test(); 
+
+Hoisting: Hoisting means JavaScript moves variable and function declarations to the top before executing the code. In var, it is initialized as un defined. But in let and const, if we access before declaration, it gives an error
+ 
+console.log(x); // undefined
+var x = 1;
+
+console.log(y); //  Error
+let y = 2;
+
+console.log(z); //  Error
+const z = 3;
